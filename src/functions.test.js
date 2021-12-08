@@ -136,4 +136,4 @@ test('Create an event list of at least 10 events', () => {
         expect(result.duration).toEqual([(event.closeHour-event.openHour), "hour"]);
     })
 
-});s
+});
